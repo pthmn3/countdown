@@ -135,10 +135,10 @@
 
         // 5. SET THE TARGET DATE:
         const currentYear = new Date().getFullYear();
-        let targetDate = new Date(`November 10, ${currentYear} 00:00:00`);
+        let targetDate = new Date(`February 17, ${currentYear} 00:00:00`);
 
         if (new Date() > targetDate) {
-            targetDate = new Date(`November 10, ${currentYear + 1} 00:00:00`);
+            targetDate = new Date(`February 17, ${currentYear + 1} 00:00:00`);
         }
         
         const targetTime = targetDate.getTime();
@@ -228,4 +228,5 @@
     </script>
 </body>
 </html>
+
 
