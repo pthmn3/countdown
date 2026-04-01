@@ -84,7 +84,7 @@
         
         <!-- Title (Made responsive) -->
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold uppercase tracking-widest mb-10 text-center">
-            O/L Exam Countdown
+            A/L Exam Countdown
         </h1>
 
         <!-- Countdown blocks container -->
@@ -135,10 +135,10 @@
 
         // 5. SET THE TARGET DATE:
         const currentYear = new Date().getFullYear();
-        let targetDate = new Date(`February 17, ${currentYear} 00:00:00`);
+        let targetDate = new Date(`August 01, ${currentYear} 00:00:00`);
 
         if (new Date() > targetDate) {
-            targetDate = new Date(`February 17, ${currentYear + 1} 00:00:00`);
+            targetDate = new Date(`August 01, ${currentYear + 1} 00:00:00`);
         }
         
         const targetTime = targetDate.getTime();
