@@ -147,10 +147,10 @@
 
         // 5. SET THE TARGET DATE:
         const currentYear = new Date().getFullYear();
-        let targetDate = new Date(`August 10, ${currentYear} 00:00:00`);
+        let targetDate = new Date(`August 01, ${currentYear} 00:00:00`);
 
         if (new Date() > targetDate) {
-            targetDate = new Date(`August 10, ${currentYear + 1} 00:00:00`);
+            targetDate = new Date(`August 01, ${currentYear + 1} 00:00:00`);
         }
         
         const targetTime = targetDate.getTime();
